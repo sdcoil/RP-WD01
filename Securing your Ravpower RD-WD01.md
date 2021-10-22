@@ -19,7 +19,8 @@ Putting in a little effort I was able to make the filehub a bit more secure, by:
   - Disabling IPv6, as a firewall for IPv6 is not installed on the device. 
 
 The main thing here is making your changes on the squashfs filesystem and then committing those changes to flash, which took a little time to figure that out.
-Change the root password
+
+# Change the root password
 
   - Connect a computer to the filehub's hotspot
   - Telnet to 10.10.10.254 (default IP)
@@ -37,7 +38,8 @@ Change the root password
         /usr/sbin/etc_tools p
 
 Now the root password is changed and committed to flash, so it stays changed after reboots.
-Basic IP Filtering
+
+# Basic IP Filtering
 
 You should already be a lot saver by changing the root password. However I don't want the telnet daemon to be accessible from foreign networks. Better yet, I don't even want my samba shares exposed to those foreign networks. So I created my filter rules quite basic, but effective:
 
