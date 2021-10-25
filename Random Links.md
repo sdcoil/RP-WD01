@@ -5,3 +5,5 @@
     https://github.com/digidem/filehub-config
   - Help! Looking for a firmware update: (forum post where I found the above 2 links)
     https://forum.thinkpads.com/viewtopic.php?t=122046
+  - RAVPower FileHub SD Card backup (Variant of https://github.com/digidem/filehub-config)
+    https://github.com/derfrankie/RAVPower-FileHub-SD-Backup
